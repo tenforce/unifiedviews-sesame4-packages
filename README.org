@@ -1,0 +1,22 @@
+#+TITLE: Unifiedviews-sesame4-packages
+
+* Introduction
+
+The script build the unifiedviews packages with sesame4 rather than the 
+older sesame2.
+
+* Building the packages
+
+This script will require docker to be installed and has only been tested
+on an ubuntu system.
+
+#+BEGIN_SRC bash
+sudo ./build-2.3.0.sh
+#+END_SRC
+
+The packages will be found in the directory 'debs'
+
+* Installation of the packages
+
+It is recommended to install them on a clean system (they are not supported packages).
+
